@@ -1,6 +1,6 @@
 try:
     xrange
-except NameError, e:
+except NameError as e:
     pass
 
 print "Hello"
